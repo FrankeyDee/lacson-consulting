@@ -7,20 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
     <link href="images/favicon.png" rel="icon" />
     <title>Lacson Consulting</title>
-
-<!-- Web Fonts -->
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
-
 <!-- Stylesheet
 ============================== -->
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css" href="./vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <!-- Font Awesome Icon -->
-<link rel="stylesheet" type="text/css" href="./vendor/font-awesome/css/all.min.css" />
+<!-- <link rel="stylesheet" type="text/css" href="./vendor/font-awesome/css/all.min.css" /> -->
 <!-- Owl Carousel -->
-<link rel="stylesheet" type="text/css" href="./vendor/owl.carousel/assets/owl.carousel.min.css" />
+<!-- <link rel="stylesheet" type="text/css" href="./vendor/owl.carousel/assets/owl.carousel.min.css" /> -->
 <!-- Magnific Popup -->
-<link rel="stylesheet" type="text/css" href="./vendor/magnific-popup/magnific-popup.min.css" />
+<!-- <link rel="stylesheet" type="text/css" href="./vendor/magnific-popup/magnific-popup.min.css" /> -->
 <!-- Custom Stylesheet -->
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 
@@ -31,14 +27,14 @@
     
 <!-- Header -->
 <!-- Preloader -->
-<div class="preloader">
+<!-- <div class="preloader">
     <div class="lds-ellipsis">
       <div></div>
       <div></div>
       <div></div>
       <div></div>
     </div>
-  </div>
+  </div> -->
   <!-- Preloader End --> 
   
   <!-- Document Wrapper   
@@ -46,95 +42,99 @@
   <div id="main-wrapper"> 
     <!-- Header
     ============================ -->
-    <header id="header" class="sticky-top"> 
-      <!-- Navbar -->
-  
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a href="#" class="navbar-brand"><img src="./images/favicon.png" width="50" height="50" /></a>
-        <button class="navbar-toggler" type="button" data-target="#navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse">
-        <ul class="navbar-nav">
+    <header id="header">
+        <!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">Fixed navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>  -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #1b1b1b; color: #f1f1f1;">
+        <a class="navbar-brand" href="#"><img src="./images/favicon.png" class="wyli-icon"></a>
+      
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a href="#" class="nav-link">Home</a>
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navdrop" role="button" data-toggle="dropdown" data-hover="dropdown">Recent Projects</a>
-                    <div class="dropdown-menu" aria-labelledby="navdrop">
-                        <a href="#" class="dropdown-item">Project1</a>
-                        <a href="#" class="dropdown-item">Project2</a>
-                        <a href="#" class="dropdown-item">Project3</a>
-                    </div>
-                    
+              <a class="nav-link" href="./about-us.html">About</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Contact Us</a>
+              <a class="nav-link" href="./portfolio.html">Projects</a>
             </li>
-        </ul>
-        </div>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+          </ul>
     </nav>
     </header>
 <!-- End of Header -->
 
 <!-- Title Cover -->
-
-    <div class="jumbotron jumbotron-fluid cover-1">
-        <div class="container">
-
-        <h1 class="display-2" class="lacson-title">Lacson Consulting</h1>
-        <p class="lead copy-ctr">Data Analytics and Project Management since 2017<br>
-        <h1 class="four"></h1>
-            <div class="ctr-btn-contact">
-            <button type="button" class="btn btn-primary btn-lg cont-btn">Contact Us</button>
-            </div>
-        </p>
-        </div>
-        
-    </div>
-
-<!-- Mission Statement -->
-
-<div class="container">
-    <div class="row align-items-center">
-      <div class="col">
-        One of three columns
-      </div>
-      <div class="col">
-        One of three columns
-      </div>
-      <div class="col">
-        One of three columns
-      </div>
-    </div>
+<div class="position-relative text-center">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Lacson Consulting</h1>
+        <p class="lead font-weight-normal">Data Analytics and Project Management since 2017</p>
+            <a class="btn btn-outline-secondary" href="./contact.html">Contact Us</button></a>
+        </div>     
 </div>
 
-
-
-<div class="container">
-    <div class="row">
-      <div class="col black-bg">
-
-      </div>
-      <div class="col-10 mission-statement">
-        <h1>Showing you the meaning behind your data.</h1>
-        <h3>Lacson Consulting was created to merge the art-form of data visualization with the practicality of product management and an artistic flair.</h3>
-        <h4>No matter your industry, service or product, we can help create a solution that will help you see your business in a brand new light.</h4>
-
-      </div>
-      <div class="col black-bg">
-
-      </div>
+<!-- Mission Statement -->
+<div class="position-relative text-center">
+    <div class="col-md-8 p-lg-8 mx-auto my-8">
+        <h1 class="display-4 font-weight-normal">Showing you the meaning behind your data.</h1>
+        <p class="lead font-weight-bolder">Lacson Consulting was created to merge the art-form of data visualization with the practicality of product management and an artistic flair.</p>
+        <p class="lead font-weight-bolder">No matter your industry, service or product, we can help create a solution that will hel you see your business in a brand new light</p>
     </div>
-<div class="mission-statement">
-    </div>
+</div>
 <!-- Cover Picture + "Data. Product. Development" -->
-
+<div class="position-relative text-center">
+    <div class="col-md-8 p-lg-8 mx-auto my-8">
+        <h1 class="display-4 font-weight-normal">Data. Product. Development.</h1>
+    </div>
+</div>
 <!-- Recent Projects (Portfolio Tiles) -->
-
+<div class="position-relative text-center">
+    <div class="col-md-8 p-lg-8 mx-auto my-8">
+        <h1 class="display-6 font-weight-normal">Recent Projects</h1>
+    </div>
+    <ul>
+        <li>
+            <h2>SFI/First Panobo Suppliers</h2>
+            <img src="./images/projects/project-1.jpg"></img>
+            <h4>A production manager’s view of agricultural suppliers. Using data from First Panabo, this shows how banana farmers supply their produce to freezing and cold storage.</h4>
+        </li>
+        <li>
+            <h2>Gender Pay Gap analysis</h2>
+            <img src="./images/projects/project-2.jpg"></img>
+            <h4>The gender pay gap is a worldwide problem that has spanned generations. With help from data.world, we’ve put together an overview showing the change year-over-year, in the hopes of bringing awareness to this ongoing issue.</h4>
+        </li>
+        <li>
+            <h2>COVID USA Spread Statistics</h2>
+            <img src="./images/projects/project-3.jpg"></img>
+            <h4>This dashboard shows the epicenters, gender, age, and symptom trends for COVID-19. With data compiled by Johns Hopkins, we get a clear picture of how the coasts and our middle aged citizens in particular were adversely affected.</h4>
+        </li>
+    </ul>
+    <a class="btn btn-outline-secondary" href=https://public.tableau.com/profile/wes.lacson#!/ target="_blank">More Projects</button></a>
+</div>
 <!-- Cover Picture + "Contact Us" -->
 
 <!-- Contact Form -->
@@ -164,8 +164,6 @@
 <script src="./vendor/isotope/isotope.pkgd.min.js"></script> 
 <!-- Magnific Popup --> 
 <script src="./vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
-<!-- Style Switcher --> 
-<script src="js/switcher.min.js"></script> 
 <!-- Custom Script --> 
 <script src="js/theme.js"></script>
 

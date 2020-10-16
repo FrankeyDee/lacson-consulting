@@ -1,13 +1,19 @@
 
+/* nav bar */
+A:link { COLOR: gold; TEXT-DECORATION: none; font-weight: normal }
+A:visited { COLOR: gold; TEXT-DECORATION: none; font-weight: normal }
+A:active { COLOR: #f3f3f3; TEXT-DECORATION: none }
+A:hover { COLOR: #f3f3f3; TEXT-DECORATION: none; font-weight: bolder }
+
 /* body */
 body {
     color: #f5f5f5;
     background-color: #1b1b1b;
 }
 
-.wyli-icon {
-    max-width: 50px;
-    max-height: 50px;
+.top-left-icon {
+    max-width: 100px;
+    max-height: 100px;
 }
 
 #main-wrapper {
@@ -38,19 +44,15 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container {
-    background-image: url('../images/Nasa.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.child {
+.cover-copy {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+

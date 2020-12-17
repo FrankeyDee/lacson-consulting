@@ -69,7 +69,8 @@ h4{
 
 .grid{
   display:grid;
-  grid-template-columns: repeat(8, 1fr); 
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px; 
 }
 .site-nav{
     margin: 5px 20px;
@@ -158,6 +159,27 @@ h4{
     text-align: center;
     grid-column: 6/9;
     font-size: 1em;
+}
+
+#about{
+    padding: 30px 20px;
+    background: #1b1b1b;
+}
+#about h3{
+    text-align: center;
+}
+#about ul{
+    margin: 40px 0;
+}
+#about li{
+    padding 10px;
+    background: rgba(0,0,0,0.2);
+    grid-column: span 4;
+    text-align: center;
+}
+#about img{
+    height: 80px;
+    margin: 10px auto;
 }
 
 /* small tablet styles */

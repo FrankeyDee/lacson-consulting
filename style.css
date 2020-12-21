@@ -97,7 +97,7 @@ h4{
     width: 100%;
     height: 300px;
     padding: 0 20px 20px 20px;
-    background-image: url(images/Nasa.jpg);
+    background-image: url('images/Nasa.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -120,7 +120,7 @@ h4{
 #about{
     width: 100%;
     padding: 0 20px 20px 20px;
-    background-image: url(images/contact_cover.jpg);
+    background-image: url('images/contact_cover.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-attachment: fixed;

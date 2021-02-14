@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Frankey Darban">
-<meta name="viewport" content="width=device-width, inital-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Lacson Consulting</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     
@@ -62,28 +64,27 @@
       <ul class="profiles grid">   
         <li>
           <img src="images/about/placeholder.png" alt="Wesley Lacson">
-          <h3>Wesley Lacson</h3>
-          <h1>CEO, Founder</h1>
+          <h3>Wesley Lacson</h3>CEO, Founder
         </li>
         <li>
           <img src="images/about/placeholder.png" alt="Eric Opoku">
           <h3>Eric Opoku</h3>
-          <h1>Position Title</h1>
+          [Position Title]
         </li>
         <li>
           <img src="images/about/placeholder.png" alt="Frankey Darban">
           <h3>Frankey Darban</h3>
-          <h1>Position Title</h1>
+          [Position Title]
         </li>
         <li>
           <img src="images/about/placeholder.png" alt="Charama Sulemane">
           <h3>Charama Sulemane</h3>
-          <h1>Position Title</h1>
+          [Position Title]
         </li>
         <li>
           <img src="images/about/placeholder.png" alt="Olayemi Awoyemi">
           <h3>Olayemi Awoyemi</h3>
-          <h1>Position Title</h1>
+          [Position Title]
         </li>
       </ul>
     </section>
@@ -93,23 +94,40 @@
       <h2>Get In Touch</h2>
         <ul class="contact-info grid">
         <li>
-          <img src="/images/phone_icon.png">
+          <!-- Phone Number -->
+          <img src="./images/phone_icon.png">
           (214) 926-349
         </li>
         <li>
-          <img src="images/email_icon.png">
+          <!-- Email Address -->
+          <img src="./images/email_icon.png">
           <a href="mailto:info@lacsonconsulting.com" target="_blank">info@lacsonconsulting.com</a>
         </li>
         <li>
+          <!-- Google Map Shot -->
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13786.09001704902!2d-97.7571729612729!3d30.250690408922466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b4fdc7714f9d%3A0xb998c845728391a3!2s1221%20S%20Congress%20Ave%20%23935%2C%20Austin%2C%20TX%2078704!5e0!3m2!1sen!2sus!4v1608334862836!5m2!1sen!2sus" width="50%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </li>
-        <li><h1>Send us a line!</h1>
+        <li>
+          <!-- <h1>Send us a line!</h1>
             <form>
               <input type="text" placeholder="Your name">
               <input type="email" placeholder="e-mail">
               <textarea placeholder="What do you envision?"></textarea>
               <button class="button">Send</button>
+            </form> -->
+          
+            <!-- Contact Form -->
+            <p>Send A Note</p>
+            <form class="contact-form" action="contactform.php" method="post">
+              <input type="text" name="name" placeholder="Full name">
+              <input type="text" name="mailto" placeholder="Your e-mail">
+              <textarea name="message" placeholder="Message"></textarea>
+              <a id="button-1" class="button" href="#">Send</a>
             </form>
+
+
+
+
         </li>
         </ul>
       </div>
@@ -117,14 +135,15 @@
      
     </section>
     <footer class="footer grid">
-        <img src="/images/favicon.png" style="width: 68px;">
-        <br>
-        <h4>A Wyli Company</h4>
-        <ul class="social">
-          <li><a href="https://facebook.com/wylidata" target="_blank"><img src="images/social/fb.png" alt="facebook"></a></li>
-          <li><a href="https://www.instagram.com/wylidata/" target="_blank"><img src="images/social/ig.png" alt="instagram"></a></li>
-          <li><a href="https://www.linkedin.com/in/wesleylacson/" target="_blank"><img src="images/social/li.png" alt="linked in"></a></li>
-        </ul></div>
+        <h4>
+          <img src="./images/favicon.png" style="width: 68px;">
+          <br>
+          A Wyli Company</h4>
+        <section id="social">
+          <a href="https://facebook.com/wylidata" target="_blank"><img src="images/social/fb.png" alt="facebook"></a>
+          <a href="https://www.instagram.com/wylidata/" target="_blank"><img src="images/social/ig.png" alt="instagram"></a>
+          <a href="https://www.linkedin.com/in/wesleylacson/" target="_blank"><img src="images/social/li.png" alt="linked in"></a>
+        </section></div>
     </footer>
 
   </body>

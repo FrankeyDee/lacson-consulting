@@ -21,9 +21,9 @@ body{
     font-family: 'Ruda Regular';
 }
 .button{
-    background: none;
+    background: var(--primary);
     border: 2px solid var(--primary);
-    color: var(--primary);
+    color: var(--secondary);
     padding: 6px 12px;
     border-radius: 20px;
     text-transform: uppercase;
@@ -34,6 +34,9 @@ body{
 .button:hover{
     color: #222;
     background: var(--primary);
+}
+.btn-view-work{
+    margin-top: 40px;
 }
 input,textarea{
     background: rgba(255,255,255,0.05);
@@ -78,8 +81,8 @@ h4{
 .site-nav ul{
     top: 0;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px 15px 15px;
+    padding: 5px 15px 5px 15px;
     overflow: hidden;
     background-color: #1f1f1f;
 }
@@ -94,7 +97,7 @@ h4{
 }
 
 #welcome{
-    width: 100%;
+    width: 100vw;
     height: 300px;
     padding: 0 20px 20px 20px;
     background-image: url('images/Nasa.jpg');
@@ -102,7 +105,8 @@ h4{
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align:center;
-    vertical-align:-webkit-baseline-middle;
+    align-items: center;
+    background-position: center center;
 }
 
 #blurb{
@@ -121,7 +125,7 @@ h4{
     width: 100%;
     padding: 0 20px 20px 20px;
     background-image: url('images/contact_cover.jpg');
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
